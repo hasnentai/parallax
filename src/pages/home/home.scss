@@ -1,3 +1,36 @@
-page-home {
+.ios,.md{
+    page-home {
+        .bg{
+            background-image: url('../assets/img/dp.jpg');
+            height: 300px;
+            background-size: cover;
+            filter: blur(5px);
+            background-position: center center;
+        }
+        .main-cnt{
+            width: 100%;
+            height: 700px;
+            padding:20px;
+            
+        }
+        .dp{
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            z-index: 10;
+            margin-top:-70px;
+            position: relative;
+            left:50%;
+            margin-right:-50%;
+            transform: translate(-50%,-50%);
+            box-shadow: -6px 15px 81px 3px rgba(0,0,0,0.75);
+        }
+        ion-list ion-item{
+            color:red;
+            background-color: #ecf0f1;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
 
+}
 }
